@@ -2,8 +2,8 @@
 #include<conio.h>
 #include<math.h>
 
-int main() {
-	
+int main() 
+{
 	float a, b, c;
 	float x1, x2;
 	float discriminant;
@@ -28,7 +28,7 @@ int main() {
 		}
 		else  // if discriminant less than 0 this equation does not have a solution in real numbers
 		{
-			printf("This equation does not have a solution set in real numbers.");
+			printf("This equation does not have a solution in real numbers.");
 		}
 	
 		getch();
